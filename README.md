@@ -2,7 +2,7 @@
 This is an interactive project implemented using both software simulation and hardware prototyping. 
 The system is divided into three main functional blocks:
 
-##Random Number Generator
+## Random Number Generator
 -Uses IC 4017 (Decade Counter) to generate numbers from 1 to 6.
 -The output is passed through a diode-based combinational logic to perform BCD to Binary conversion.
 -The Binary output is then decoded using IC 7447 (Binary to Seven Segment Decoder).
@@ -10,7 +10,7 @@ The system is divided into three main functional blocks:
 -A 555 Timer IC is used to generate the clock for the IC 4017.
 -Timer configuration: ~45 MHz using a 10µF capacitor and 150kΩ resistors.
 
-##Fastest Finger First Module
+## Fastest Finger First Module
 -Consists of four identical circuits, each representing a player.
 -All circuits are connected to a common Set and Reset rail.
 -When any player presses their button:
@@ -24,7 +24,7 @@ The system is divided into three main functional blocks:
 -The current score is displayed on a Seven Segment Display.
 -Can be expanded to multiple digits if needed.
 
-##Power Supply
+## Power Supply
 A regulated 5V supply is required.
 A 9V battery can be used with a voltage regulator circuit to step down to 5V for consistent performance.
 
